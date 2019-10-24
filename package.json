@@ -1,0 +1,22 @@
+{
+  "name": "dailyharvest",
+  "version": "1.0.0",
+  "description": "Daily Harvest Assignment",
+  "main": "app.js",
+  "author": "Eric",
+  "license:": "N/A",
+  "scripts": {
+    "start": "gulp start",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-live-server": "^0.0.31",
+    "jsonfile": "^5.0.0",
+    "lodash": "^4.17.15",
+    "mocha": "^6.2.2"
+  }
+}

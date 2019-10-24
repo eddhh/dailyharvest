@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="static/js/lodash.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <!-- for the purposes of this assignment, run the search on page load -->
+  <body onload="searchProducts()">
+    <!-- also allow searching other ingredients. in practice we'd probably use a dropdown / multi-select, or at least a debounce -->
+    <span>Ingredient: <input type="text" id="search" value="Organic Banana" onkeyup="searchProducts()"></input></span>
+    <br />
+    <br />
+    <span><b>Products containing ingredient:</b></span>
+    <!-- placeholder for results -->
+    <div id="results"></div>
+  </body>
+</html>
