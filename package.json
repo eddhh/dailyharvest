@@ -12,7 +12,7 @@
   "dependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gulp": "^4.0.2",
     "gulp-live-server": "^0.0.31",
     "jsonfile": "^5.0.0",
